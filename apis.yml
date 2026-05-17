@@ -2,7 +2,7 @@ aid: consensus
 url: >-
   https://raw.githubusercontent.com/api-evangelist/consensus/refs/heads/main/apis.yml
 name: Consensus
-x-type: topic
+kind: topic
 description: >-
   Consensus is the distributed systems problem of getting a set of unreliable
   processes to agree on a value or sequence of values. Consensus algorithms
