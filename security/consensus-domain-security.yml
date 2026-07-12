@@ -1,0 +1,30 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: lamport.azurewebsites.net
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov  9 15:33:48 2026 GMT
+  hsts: false
+- host: pmg.csail.mit.edu
+  https: false
+- host: docs.cometbft.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  4 23:02:21 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+domains:
+- domain: azurewebsites.net
+  dnssec: false
+  caa:
+  - 0 contactemail "caarecordaware@microsoft.com"
+  spf: false
+  dmarc: false
+- domain: mit.edu
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none

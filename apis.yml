@@ -172,6 +172,8 @@ apis:
       - Modern blockchain consensus designs
       - High-throughput, low-latency BFT systems
 common:
+  - type: DomainSecurity
+    url: security/consensus-domain-security.yml
   - type: Reference
     url: https://en.wikipedia.org/wiki/Consensus_(computer_science)
   - type: Reference
