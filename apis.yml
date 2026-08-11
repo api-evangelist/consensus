@@ -184,6 +184,19 @@ apis:
       - Modern blockchain consensus designs
       - High-throughput, low-latency BFT systems
 common:
+  - type: IssueTracker
+    url: https://github.com/cometbft/cometbft/issues
+  - type: Releases
+    url: https://github.com/cometbft/cometbft/releases
+  - type: SecurityPolicy
+    url: https://github.com/cometbft/cometbft/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/cometbft/cometbft/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/cometbft/cometbft/blob/main/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/cometbft/cometbft/blob/main/LICENSE
   - type: DomainSecurity
     url: security/consensus-domain-security.yml
   - type: Reference
