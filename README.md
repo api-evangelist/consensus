@@ -1,4 +1,4 @@
-# Consensus
+# consensus
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,57 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Consensus is the distributed systems problem of getting a set of unreliable processes to agree on a value or sequence of values. Consensus algorithms power state-machine replication for databases, key-value stores, configuration systems, and blockchains. The topic spans crash-fault tolerant algorithms (Paxos, Raft, Multi-Paxos, Zab, Viewstamped Replication) and Byzantine fault tolerant algorithms (PBFT, Tendermint, HotStuff, Casper).
+## consensus on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/consensus/refs/heads/main/apis.yml)
+Everything profiled for consensus is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/consensus/](https://apis.io/providers/consensus/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+## API Evangelist rating
 
-- Algorithms, BFT, Blockchain, Consensus, Crash Fault Tolerance, Distributed Systems, Replication, State Machine
+Not yet rated. See [apis.io/providers/consensus/](https://apis.io/providers/consensus/).
 
-## Timestamps
+## How this profile is made
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## APIs
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for consensus: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### Paxos
-The classical crash-fault-tolerant consensus algorithm by Leslie Lamport. Powers Google Chubby, Spanner, Megastore.
+## Open an issue
 
-**Human URL:** [Paxos Made Simple](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf)
-
-### Raft
-Consensus algorithm designed for understandability. Implemented in etcd, Consul, CockroachDB, TiKV, MongoDB.
-
-**Human URL:** [https://raft.github.io/](https://raft.github.io/)
-
-### Practical Byzantine Fault Tolerance (PBFT)
-By Castro and Liskov (1999). BFT consensus tolerating up to f failures with 3f+1 replicas.
-
-**Human URL:** [PBFT paper](http://pmg.csail.mit.edu/papers/osdi99.pdf)
-
-### Tendermint / CometBFT
-BFT consensus engine that powers Cosmos SDK chains. ABCI decouples consensus from application logic.
-
-**Human URL:** [https://docs.cometbft.com/](https://docs.cometbft.com/)
-
-### HotStuff
-Leader-based BFT consensus with linear view change. Foundation for Diem/Libra, Aptos, and Sui consensus.
-
-**Human URL:** [HotStuff paper](https://arxiv.org/abs/1803.05069)
-
-## Common Properties
-
-- [Wikipedia: Consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science))
-- [Wikipedia: Paxos](https://en.wikipedia.org/wiki/Paxos_(computer_science))
-- [Wikipedia: Raft](https://en.wikipedia.org/wiki/Raft_(algorithm))
-- [Wikipedia: Byzantine fault](https://en.wikipedia.org/wiki/Byzantine_fault)
-- [FLP Impossibility paper](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
-- [Raft resources](https://raft.github.io/)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/consensus/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
